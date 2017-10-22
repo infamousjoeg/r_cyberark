@@ -1,0 +1,190 @@
+/* Text on the "Submit" page */
+#link-desc:after, #text-desc:after {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+    content: " After submitting your post, please edit the post flair to indicate which version of CyberArk you are using"
+    }
+
+/* Link Flair */
+
+.linkflair-blacknwhitesmall .linkflairlabel {
+    background-color: #FFFFFF;
+    font-size: 8px;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 2px;}
+
+/* Colorful User Flairs */
+.flair-grey { color:grey}
+.flair-blacknwhiteUserFlair{ 
+    background-color: #FFFFFF;
+    font-size: 8px;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 2px;}
+
+/* BEGIN CORRECTING CASING OF /r/CyberARk */
+.pagename {
+   font-size: 0;
+}
+
+.pagename:after {
+   content: "CyberArk"; /* you can change this to all caps or whatever if you want */
+   font-size: 14px;
+   color: #FFFFFF;
+}
+
+.titlebox h1 {
+   font-size: 0;
+}
+
+.titlebox h1:after {
+   content: "CyberArk";
+   font-size: 19px;
+}
+
+/* END CORRECTING CASING OF /r/CyberARk */
+
+/* BEGIN HEADER CUSTOMIZATION */
+
+#sr-header-area a {
+    color : #FFFFFF;
+}
+#sr-header-area a.RESShortcutsCurrentSub {
+    color : #3B70B0;
+}
+.sr-bar .separator {
+    color : #3B70B0;
+}
+#header {
+    border-bottom-color : #588CCB;
+    background-color : #3B70B0;
+}
+#sr-header-area {
+    border-bottom-color : #588CCB;
+    background-color : #588CCB;
+}
+#header-bottom-right {
+    background-color : #E7E7E7;
+}
+
+/* END HEADER CUSTOMIZATION */
+
+/* Change 'readers' box value */
+div.titlebox span.word {
+    display:none;
+}
+div.titlebox span.number:after {
+    content: " CyberArk Champions";
+}
+
+/* Change 'users here now' box value */
+.users-online .word {
+    display:none;
+}
+.users-online .word, .users-online .number:after {
+    content: " CyberArk Champions here now" !important;
+}
+
+/* BEGIN UPVOTE/DOWNVOTE ARROW CUSTOMIZATION */
+
+.arrow.down {
+    width: 0px;
+    height: 0;
+    margin-top:8px;
+    background-image: none;
+    border-top: 8px solid #BDBDBD;
+    border-left: 8px solid #FFF;
+    border-left-color: transparent;
+    border-right: 8px solid #FFF;
+    border-right-color: transparent;
+}
+.arrow.down:after {
+    content: "";
+    position: relative;
+    bottom: 13px;
+    left: -3px;
+    width: 5px;
+    height: 6px;
+    background: #BDBDBD;
+    background-image: -webkit-linear-gradient(top, #DCDCDC, #BDBDBD);
+    background-image: -moz-linear-gradient(top, #DCDCDC, #BDBDBD);
+    background-image: -o-linear-gradient(top, #DCDCDC, #BDBDBD);
+    background-image: -ms-linear-gradient(top, #DCDCDC, #BDBDBD);
+    background-image: linear-gradient(to bottom, #DCDCDC, #BDBDBD);
+    display: block;}
+.arrow.downmod {
+    width: 0px;
+    height: 0;
+    margin-top: 8px;
+    background-image: none;
+    border-top: 8px solid #3B70B0;
+    border-left: 8px solid #FFF;
+    border-left-color: transparent;
+    border-right: 8px solid #FFF;
+    border-right-color: transparent;
+}
+.arrow.downmod:after {
+    content: "";
+    position: relative;
+    bottom: 13px;
+    left: -3px;
+    width: 5px;
+    height: 6px;
+    background: #9494FF;
+    background-image: -webkit-linear-gradient(top, #88BDFD, #3B70B0);
+    background-image: -moz-linear-gradient(top, #88BDFD, #3B70B0);
+    background-image: -o-linear-gradient(top, #88BDFD, #3B70B0);
+    background-image: -ms-linear-gradient(top, #88BDFD, #3B70B0);
+    background-image: linear-gradient(to bottom, #88BDFD, #3B70B0);
+    display: block;
+}
+
+/* END UPVOTE/DOWNVOTE ARROW CUSTOMIZATION */
+
+/* Customize title color */
+
+#siteTable div.thing a.title {
+    font-weight: bold;
+    color: #88BDFD;
+}
+
+#siteTable div.thing a.title:visited {
+    font-weight: bold;
+    color: #588CCB;
+}
+
+#siteTable div.thing.stickied.link a.title {
+    font-weight: bold;
+    color: #3B70B0;
+    font-style: italic;  
+}
+
+/* reminder to flair own posts */
+
+body.comments-page .link .flat-list.buttons li a.flairselectbtn {
+    position: relative;
+}
+body.post-submitter .link:not(.linkflair) .flat-list.buttons li a.flairselectbtn:after {
+    content: "Please assign CA Version for your post!";
+    position: absolute;
+    top: -24px;
+    left: -76px;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    font-weight: normal;
+    padding: 0px 4px;
+    border-radius: 3px;
+}
+body.post-submitter .link:not(.linkflair) .flat-list.buttons li a.flairselectbtn:before {
+    content: "";
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-top-color: #000;
+    position: absolute;
+    top: -14px;
+    left: 3px;
+    transform: translateY(6px);
