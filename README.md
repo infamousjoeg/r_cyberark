@@ -2,7 +2,7 @@
 
 [/r/CyberArk](https://reddit.com/r/CyberARk) subreddit customized CSS stylesheet
 
-[![GitHub issues](https://img.shields.io/github/issues/infamousjoeg/r_cyberark.svg)](https://github.com/infamousjoeg/r_cyberark/issues)[![GitHub forks](https://img.shields.io/github/forks/infamousjoeg/r_cyberark.svg)](https://github.com/infamousjoeg/r_cyberark/network)[![GitHub stars](https://img.shields.io/github/stars/infamousjoeg/r_cyberark.svg)](https://github.com/infamousjoeg/r_cyberark/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/infamousjoeg/r_cyberark.svg)](https://github.com/infamousjoeg/r_cyberark/issues)[![GitHub forks](https://img.shields.io/github/forks/infamousjoeg/r_cyberark.svg)](https://github.com/infamousjoeg/r_cyberark/network)[![GitHub stars](https://img.shields.io/github/stars/infamousjoeg/r_cyberark.svg)](https://github.com/infamousjoeg/r_cyberark/stargazers)[![GitHub license](https://img.shields.io/github/license/infamousjoeg/r_cyberark.svg)](https://github.com/infamousjoeg/r_cyberark/blob/master/LICENSE.md)
 
 This is the CSS Stylesheet used for the reddit subreddit /r/CyberARk.
 
