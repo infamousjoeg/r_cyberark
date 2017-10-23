@@ -9,7 +9,7 @@ This is the CSS Stylesheet used for the reddit subreddit /r/CyberARk.
 ## Fixes
 
 * /r/CyberARk improper casing in header and sidebar
-  * Fixes to /r/CyberARk
+  * Fixes to /r/CyberArk
 
 ## Customizations
 
